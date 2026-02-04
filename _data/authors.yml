@@ -1,0 +1,176 @@
+# authors
+
+- mike:
+  name: Mike Jenkins
+  position: CEO
+  bio: >
+    I am a graduate of Johns Hopkins University and have over twenty (20) years of 
+    experience in all facets of acquisition and engineering to include acquiring, developing, 
+    and managing software applications. I have spent the majority of my career 
+    working for DCS Corporation developing specialized mission planning solutions for the
+    United States Navy, Marine Corp, and Air Force. While working for DCS, I served as the Chief 
+    Engineer (Systems / Software) for a Capability Maturity Model Integration (CMMI) Maturity 
+    Level 3 organization specializing in Agile software development.
+
+    I co-founded Versagility Technologies in March 2016 where I serve as the 
+    President / CEO. Since this time I have been developing microservice architectures 
+    and web applications providing support for both logistics and mission planning.
+
+    Outside of work, I am a father of three and an avid Washington D.C sports fan.
+  url:
+  avatar: mike.jpg
+  email: mjenkins@versagilitytechnologies.com
+  credentials:
+    [
+      {
+        text: "Certified SAFe 6 Practice Consultant (SPC)",
+        image: "certifications/certified-safe-6-practice-consultant.png",
+        url: "https://www.credly.com/badges/57c5b30c-2e4b-465c-ac19-6cdce3f043f9/public_url",
+      },
+      {
+        text: "Certified SAFe 6 Release Train Engineer (RTE)",
+        image: "certifications/certified-safe-6-release-train-engineer.png",
+        url: "https://www.credly.com/badges/247d5a90-1095-4a10-b9cb-866e8e1c104e/public_url",
+      },
+      {
+        text: "Certified SAFe 6 Advanced Scrum Master (SASM)",
+        image: "certifications/certified-safe-6-advanced-scrum-master.png",
+        url: "https://www.credly.com/badges/d8d2bcca-3558-43e6-81df-4ea768a28079/public_url",
+      },
+      {
+        text: "Certified SAFe 5 Government Practitioner (SGP)",
+        image: "certifications/certified-safe-5-government-practitioner.png",
+        url: "https://www.credly.com/badges/9704f630-9868-4e81-842c-786730b2cf43/public_url",
+      },
+      {
+        text: "SAFe Ready to Train",
+        image: "certifications/safe-ready-to-train.png",
+        url: "https://www.credly.com/badges/7dcb865e-9976-4769-97b5-dcf4a6ee97b8/public_url",
+      },
+      {
+        text: "Professional Agile Leadership - Evidence Based Management (PAL-EBM)",
+        image: "certifications/professional-agile-leadership-evidence-based-management-pal-ebm.png",
+        url: "https://www.credly.com/badges/12c8f21d-9091-4338-9c4a-eeef0cb804e3/public_url"
+      }
+    ]
+
+- derek:
+  name: Derek Thompson
+  position: COO
+  bio: >
+    Proud alumnus of Towson (BS) and Johns Hopkins (ME) Universities. Over 2 decades of 
+    Department of Defense contract acquisition, management and engineering support. Before 
+    I joined Versagility Technologies I spent 9 years as the Chief Technologist for a large company. 
+    I spent most of my time advising DoD clients about the application of commercial industry best 
+    practices for Information Technology and Systems Engineering to the DoD community. Now with 
+    Versagility Technologies my responsibilities have not changed. They include development of organizational 
+    technical strategy, business development, direct systems engineering consulting for clients, research 
+    and development, staff development, training, and performing as technical advisor for high visibility 
+    projects. Now with a small company, I’m enjoying every minute of the ride working alongside driven, 
+    super smart folks with a singular focus… excellence. When I’m not working I enjoy watching sports, 
+    taking orders from my 3 beautiful daughters and one amazing wife:-). Cheers!
+  url:
+  avatar: derek.jpg
+  email: dthompson@versagilitytechnologies.com
+  credentials: [
+      {
+        text: "Professional Agile Leadership - Evidence Based Management (PAL-EBM)",
+        image: "certifications/professional-agile-leadership-evidence-based-management-pal-ebm.png",
+        url: "https://www.credly.com/badges/3622e14e-5c14-4d6b-acc6-78ed5b330b4d/public_url",
+      },
+    ]
+
+- brad:
+  name: Brad Turner
+  position: CTO
+  bio: >
+    I've spent the majority of my career participating in and leading Agile software development efforts 
+    leveraging various Agile methodologies including Scrum, Kanban and SAFe in support of various groups
+    within the DoD.  With experience in the implementation of various Development Security Operations 
+    (DevSecOps) strategies, virtualization technologies, and cloud computing service models I I've strived to 
+    establish a culture of rapid innovation and relentless improvement resulting in accelerated delivery of 
+    functionality to the stakeholders. I’m an avid fan of the Washington Capitals and enjoy kayak fishing.
+  url:
+  avatar: brad.png
+  email: bturner@versagilitytechnologies.com
+  credentials: [
+      {
+        text: "Certified SAFe 6 Practitioner",
+        image: "certifications/certified-safe-6-practitioner.png",
+        url: "https://www.credly.com/badges/594029f0-be4b-476c-9226-52f9aaef1285/public_url",
+      },
+      {
+        text: "Professional Agile Leadership - Evidence Based Management (PAL-EBM)",
+        image: "certifications/professional-agile-leadership-evidence-based-management-pal-ebm.png",
+        url: "https://www.credly.com/badges/c7ee8df9-b087-499c-880e-00152236a949/public_url",
+      },
+      {
+        text: "Certified SAFe 6 DevOps Practitioner",
+        image: "certifications/certified-safe-6-devops-practitioner.png",
+        url: "https://www.credly.com/badges/accdb530-78da-4af6-9b41-b417dbd8d973/public_url"
+      },
+      #{
+      #  text: "Certified SAFe 5 Practitioner",
+      #  image: "certifications/certified-safe-5-practitioner.png",
+      #  url: "https://www.credly.com/badges/49a4bffa-a2e6-4573-9964-3a436c2f7796/public_url",
+      #},
+      #{
+      #  text: "Certified SAFe 4 Practitioner",
+      #  image: "certifications/certified-safe-4-practitioner.png",
+      #  url: "https://www.credly.com/badges/49a4bffa-a2e6-4573-9964-3a436c2f7796/public_url",
+      #}
+    ]
+
+- pat:
+  name: Pat Setorie
+  position: Software Engineer
+  bio: >
+    I’ve worked for the DoD for the last 7 years developing many applications using a 
+    variety of tools and languages.  Some of these projects spanned from interfacing with 
+    different hardware and porting projects to different languages to be more efficient.  
+    In my spare time I like to build computers and I play a variety of instruments such as 
+    guitar, drums, and the piano.
+  url:
+  avatar: pat.jpg
+  email: psetorie@versagilitytechnologies.com
+
+- tan:
+  name: Tan Pham
+  position: Software Engineer
+  bio: >
+    Over the past 16 years, I have  supported various program offices within NavAir and 
+    NavSea ranging from server admin, architecture design, IA, data analytic and software 
+    development in both web and hardware. I have two girls and I enjoying playing tennis, 
+    volleyball, and soccer.
+  url:
+  avatar: tan.png
+  email: tpham@versagilitytechnologies.com
+
+- adam:
+  name: Adam Hughes
+  position: Software Engineer
+  bio: >
+    I'm a Finance major turned software developer, most recently working for Space Force 
+    Readiness. I've lived coast to coast, worked at start-ups and fortune 500s, and have 
+    been a professional for a decade. My hobbies are as diverse as my work background, but 
+    mainly revolve around being outside. Motorcycling, hunting, overlanding, hiking, 
+    pickleball, archery, and shooting is how my weekends get filled.
+  url:
+  avatar: adam.jpg
+  email: ahughes@versagilitytechnologies.com
+
+- trevor:
+  name: Trevor Burns
+  position: Software Engineer
+  bio: >
+    I'm a full-stack software engineer with over ten years of experience developing modern 
+    web applications in support of the Navy, Air Force, and Space Force. I've worked across 
+    the stack to deliver secure, scalable solutions in mission-critical environments and 
+    enjoy solving complex problems through clean, efficient code. Outside of work, I stay 
+    busy with my two kids, juggling their sports and school activities. When I'm not 
+    continuing my education or out on the soccer field or basketball court, I'm making the 
+    most of quiet moments with my wife, usually watching our favorite shows or playing 
+    video games together.
+  url:
+  avatar: trevor.jpg
+  email: tburns@versagilitytechnologies.com

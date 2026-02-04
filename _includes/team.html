@@ -1,0 +1,47 @@
+<!-- Team Section -->
+<section id="team" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Our Amazing Team</h2>
+                <h3 class="section-subheading text-muted">Discover how our combined strengths and varied backgrounds
+                    fuel innovation</h3>
+            </div>
+        </div>
+        <div class="row">
+            {% for member in site.data.authors %}
+            {% assign mod = forloop.index | modulo: 3 %}
+            {% if mod == 0 %}
+            <div class="row">
+                {% endif %}
+                <div class="col-md-4">
+                    <div class="team-member">
+                        <img src="img/team/{{ member.avatar }}" class="img-responsive img-circle" alt="">
+                        <h4>{{ member.name }}</h4>
+                        <p class="text-muted">{{ member.position }}<br />(<a href="mailto:{{ auth.email }}">{{
+                                member.email }}</a>)</p>
+                        <ul class="list-inline">
+                            {% for cred in member.credentials %}
+                            <li>
+                                <a href="{{cred.url}}" target="_blank">
+                                    {% assign credImg = cred.image | prepend: "/img/" | prepend: site.baseurl %}
+                                    <div style="display:inline-block;border-radius:7px;overflow:hidden;height:50px;width:50px;background:url({{ credImg }});background-size:50px;"
+                                        title="{{cred.text}}"></div>
+                                </a>
+                            </li>
+                            {% assign credmod = forloop.index | modulo: 3 %}
+                            {% if credmod == 0 %}
+                            <br />
+                            {% endif %}
+                            {% endfor %}
+                        </ul>
+                        <p>{{ member.bio }}</p>
+                    </div>
+                </div>
+                {% if mod == 0 %}
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</section>

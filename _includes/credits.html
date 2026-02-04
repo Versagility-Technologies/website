@@ -1,0 +1,66 @@
+<!-- Credits Section -->
+<section id="credits" class="bg-light-gray collapse">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">People to Thank</h2>
+                <h3 class="section-subheading text-muted">Discover who/what inspired the form and function behind this
+                    site</h3>
+            </div>
+        </div>
+        <div class="row">
+            <h4>Design and framework</h4>
+            <table class="table table-striped">
+                {% for c in site.data.credits.creds %}
+                <tr>
+                    <td>{{ c.for }}</td>{%
+                    if c.url %}
+                    <td><a target="_blank" href="{{ c.url }}">{{ c.by }}</a></td>{%
+                    else %}
+                    <td>{{ c.by }}</td>{%
+                    endif %}
+                    <td>{% if c.lic %}{{ site.data.credits.licenses[c.lic].name }}{% else %}public domain{% endif %}
+                    </td>
+                </tr>{%
+                endfor %}
+                {% for ec in site.data.tokens.extra-credit
+                %}<tr row="extra">
+                    <td>{{ ec.for }}</td>{%
+                    if ec.url %}
+                    <td><a target="_blank" href="{{ ec.url }}">{{ ec.by }}</a></td>{%
+                    else %}
+                    <td>{{ ec.by }}</td>{%
+                    endif %}
+                    <td>{% if ec.lic %}{{ site.data.credits.licenses[ec.lic].name }}{% else %}public domain{% endif %}
+                    </td>
+                </tr>{%
+                endfor %}
+            </table>
+        </div>
+        <div class="row">
+            <h4>Images</h4>
+            <div class="row">
+                <div class="col-sm-4">
+                    {% for img in site.data.credits.image-credit %}
+                    {% if img.url %}
+                    <a style="border:none !important;" href="{{ img.url }}" target="_blank" title="{% if img.by %}{{ img.by }}, {% endif %}{%
+                                if img.lic %}{{ site.data.credits.licenses[img.lic].name }}{%
+                                else %}public domain{%
+                                endif %}">
+                        {% endif %}
+                        <img style="width:100%" src="{{ img.src | prepend: site.baseurl }}"
+                            alt="the image being credited" />
+                        {% if img.url %}
+                    </a>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+            All other images are public domain.
+        </div>
+        <br />
+        <div class="col-lg-12 text-center">
+            <a href="#credits" data-toggle="collapse" data-target="#credits" class="page-scroll btn btn-primary">collapse</a>
+        </div>
+    </div>
+</section>

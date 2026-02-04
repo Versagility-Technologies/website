@@ -1,0 +1,77 @@
+licenses:
+  perm:
+    name : special, by permission
+  tm:
+    name : Trademark
+  sil:
+    name : SIL Open Font License, 1.1
+    icon :
+    url  : 
+  mit:
+    name : MIT License
+    icon :
+    url  :
+  ccb2:
+    name : Creative Commons Attribution 2.0 Generic
+    icon :
+    url  : https://creativecommons.org/licenses/by/2.0/
+  ccb3:
+    name : Creative Commons Attribution 3.0 Unported
+    icon :
+    url  : https://creativecommons.org/licenses/by/3.0/
+  ccbsa2:
+    name : Creative Commons Attribution-ShareAlike 2.0
+    icon :
+    url  : https://creativecommons.org/licenses/by-sa/2.0/
+  ccbnc2:
+    name : Creative Commons Attribution-NonCommercial 2.0 Generic
+    icon :
+    url  : https://creativecommons.org/licenses/by-nc/2.0/
+  ccbncnd2:
+    name : Creative Commons Attribution-NonCommercial-NoDerivs 2.0 Generic
+    icon :
+    url  : https://creativecommons.org/licenses/by-nc-nd/2.0/
+  ccbncsa2:
+    name : Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic
+    icon :
+    url  : https://creativecommons.org/licenses/by-nc-sa/2.0/
+  apa2:
+    name : Apache License, 2.0
+    icon :
+    url  :
+  gplv3:
+    name : Gnu Public License, 3.0
+    icon :
+    url  :
+
+creds:
+  - for : Agency Jekyll Theme
+    by  : 'y7kim'
+    url : https://jekyllthemes.io/theme/agency-jekyll-theme
+    lic : apa2
+  - for : Bootswatch v3.2.0
+    by  : Thomas Park
+    url : http://bootswatch.com
+    lic : mit
+  - for : Font Awesome 4.5.0
+    by  : Dave Gandy
+    url : https://fontawesome.io
+    lic : mit
+  - for : Build framework
+    by  : Jekyll
+    url : https://jekyllrb.com/
+    lic : mit
+  - for : jQuery validation
+    by  : Jörn Zaefferer
+    url : http://jqueryvalidation.org/
+    lic : mit
+  - for : jQuery
+    by  : jQuery Foundation
+    url : https://jquery.com/
+    lic : mit
+
+image-credit:
+  - src : /img/header-bg.jpg
+    by  : Konstaninos Dafallas
+    url : https://www.flickr.com/photos/72906133@N00/4011647045/
+    lic : ccb2

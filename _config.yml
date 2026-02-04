@@ -1,0 +1,43 @@
+title: Versagility Technologies
+email: leadership@versagilitytechnologies.com
+description: Harnessing Change to Maximize Value
+about-us-para: >-
+  Versagility Technologies is a small business specializing in acquiring, developing, 
+  and managing software applications for the United States Navy, Marine Corp, and 
+  Air Force. Our extensive experience includes, but is not limited to, systems engineering, 
+  system documentation, software re-architecture, developing open architecture service 
+  oriented software solutions, business development, process improvement, project 
+  management, application life cycle management, acquisition support, and technical 
+  consulting.  We strive to form partnerships with our customers to build versatile, 
+  agile software solutions for our country's Warfighters using sound development processes. 
+  We provide a full range of software development services to help our customers achieve 
+  their missions and provide critical products to our military.
+baseurl: ""
+url: "" 
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
