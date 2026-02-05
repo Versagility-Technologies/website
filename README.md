@@ -6,9 +6,7 @@ This repository stores the code for the Versagility Technologies website. It lev
 You can find basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
 You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
 [minima](https://github.com/jekyll/minima)
 
 You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
 [jekyll](https://github.com/jekyll/jekyll)
