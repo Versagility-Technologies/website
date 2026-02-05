@@ -174,3 +174,16 @@
   url:
   avatar: trevor.jpg
   email: tburns@versagilitytechnologies.com
+
+- bradley:
+  name: Bradley Bogaczyk
+  position: Software Engineer
+  bio: >
+    Salisbury University alumnus with a data science/mathematics background. I’ve moved 
+    around doing many different jobs in my career. From heating and air-conditioning to 
+    restaurant work. I recently helped with search and rescue work for the National 
+    Oceanic and Atmospheric Administration. In my free time I enjoy golfing, snowboarding 
+    and being on the water.
+  url:
+  avatar: bradley.jpg
+  email: bbogaczyk@versagilitytechnologies.com
