@@ -1,0 +1,51 @@
+---
+title: Software Developer
+subtitle: Senior
+layout: default
+modal-id: 1
+date: 2026-08-06
+img: VersagilitySoftwareDevelopmentJob.png
+thumbnail: VersagilitySoftwareDevelopmentJob.png
+alt: image-alt
+location: |
+    100% remote within the United States (Eastern Standard or Central Standard time zones).
+client: USN
+category: Software Development
+description: |
+    Versagility Technologies is seeking an experienced developer to join its teams developing the next generation of mission planning software supporting Naval aviation. Take pride in supporting a program that helps protect American aviators. Help us develop solutions that enable aircrew to successfully complete their mission and safely return home. 
+qualifications:
+    - Contribute to software development as part of a team contributing to a multi-team, multi-organization enterprise using Scaled Agile Framework (SAFe).
+    - Design, develop, test, and deploy scalable software services using ASP .NET Core Web API.
+    - Collaborate with other developers in the enterprise to design and implement user interfaces using React JS
+    - Develop end-to-end tests to validate acceptance criteria associated with the User Interface (UI) / User Experience (UX)
+    - Grow your skillset to provide additional team flexibility as requests for new capabilities are allocated each planning interval.
+    - Take ownership of and responsibility for software products being developed.
+    - Gain domain knowledge and contribute to providing technical guidance to software and test engineers.
+    - Work with the team to relentlessly improve the user experience and expand system capabilities.
+    - Support the development of product documentation, user training materials, and team meeting materials as needed.
+required_skills:
+    - Due to the sensitivity of customer related requirements, U.S. Citizenship is required.
+    - Bachelor's degree in a STEM discipline plus 10 years of experience or Master's degree plus 8 years of experience.
+    - Ability to obtain Secret Clearance within 6-9 months of hire date.
+    - Experience with Microservice architectures.
+    - Experience with two or more of the following:
+        - Design and Development using C#/ASP.NET Core Web API.
+        - PostgreSQL Database Management System
+        - ReactJS, JavaScript, and TypeScript
+        - Unit Test Frameworks (xUnit, MSTest, Moq, NSubstitute).
+        - API Test Frameworks (RobotFramework)
+        - Automated UI test frameworks (Cypress)
+        - Kubernetes/Helm, Docker, Liquibase
+    - Ability to work with a geographically distributed team.
+    - Excellent verbal and written communication skills.
+    - Strong critical thinking skills.
+desired_skills:
+    - Active Security Clearance is preferred.
+    - Experienced with Atlassian tools (JIRA, Confluence, Bitbucket)
+    - Experience with Prisma Cloud, SonarQube
+    - Experience with Agile Scrum or Scaled Agile Framework (SAFe), any SAFe certification is a plus.
+    - Knowledge and understanding of mission planning needs of military aviators.
+
+
+
+---

@@ -1,0 +1,76 @@
+ <!-- Portfolio Modals -->
+ {% for post in site.posts %}
+    <div class="portfolio-modal modal fade" id="opportunity-{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>{{ post.title }}</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <p>{{ post.description }}</p>
+                            <h3>Qualifications</h3>
+                            <p>
+                                <ul>
+                                {% for qual in post.qualifications %}
+                                    <li style="text-align:left">{{ qual }}</li>
+                                {% endfor %}
+                                </ul>
+                            </p>
+                            <h3>Required Skills</h3>
+                            <p>
+                                <ul>
+                                {% for reqskill in post.required_skills %}
+                                    {% if reqskill.first.size > 0 %}
+                                    <li style="text-align: left">{{ reqskill.first[0] }}</li>
+                                        <ul>                                            
+                                            {% for subreqskill in reqskill.first offset:1 %}
+                                                {% for sk in subreqskill %}
+                                                <li style="text-align:left">{{ sk }}</li>
+                                                {% endfor %}
+                                            {% endfor %}
+                                        </ul>
+                                    {% else %}
+                                        <li style="text-align:left">{{ reqskill }}</li>
+                                    {% endif %}
+                                {% endfor %}
+                                </ul>
+                            </p>
+                            <h3>Desired Skills</h3>
+                            <p>
+                                <ul>
+                                {% for desiskill in post.desired_skills %}
+                                    <li style="text-align:left">{{ desiskill }}</li>
+                                {% endfor %}
+                                </ul>
+                            </p>
+                            
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong>{{ post.client }}</strong>
+                                </li>
+                                <li>Location:
+                                    <strong>{{ post.location }}</strong>
+                                </li>
+                                <li>Service:
+                                    <strong>{{ post.category }}</strong>
+                                </li>
+                            </ul>
+                            <a href="mailto:jobs@versagilitytechnologies.com?subject={{ post.title }}%20Position%20%28Opportunity%20ID%20{{ post.modal-id}}%29%20Application">
+                                <button type="Button" class="btn btn-default"><i class="fa fa-envelope"></i> Apply Now</button>
+                            </a>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}
